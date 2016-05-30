@@ -71,7 +71,7 @@ Animation is easily implemented thanks to **Animate.css** and **WOW.js**. Refer 
 
 **Template Styling**
 
-- _2-templates/_ : The importance why the `SASS` folder is structured this way is to keep everything modular. If you have a specific template for certain pages, add a `SASS` file with a filename matching the template, example:
+- _2-templates/_ : The importance why the `SASS` folder is structured this way is to keep everything modular. If you have a specific template for certain pages, add a `SASS` folder with a filename matching the template, example:
 
 ```
   index.sass -- styles for the homepage
@@ -95,4 +95,4 @@ Animation is easily implemented thanks to **Animate.css** and **WOW.js**. Refer 
 
 If done correctly, `main.sass` will compile everything to **css/_site-styles_.css**. Make sure to take advantage of the `@extend` feature of `SASS`. For more info, checkout [SASS' Documentation](http://sass-lang.com/guide)
 
-**IMPORTANT** Exclude the '_sass` files whenever a project will be uploaded onto a live server.
+**IMPORTANT** Exclude the `_sass` folder whenever the project is uploaded onto a live server.
