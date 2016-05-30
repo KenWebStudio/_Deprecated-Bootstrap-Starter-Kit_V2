@@ -8,7 +8,7 @@
 4. [Animate.css](https://github.com/daneden/animate.css/blob/master/animate.min.css) **v3.5.1**
 5. [WOW.js](https://github.com/matthieua/WOW/blob/master/dist/wow.min.js) **v1.1.3**
 
-**Guidelines - Setup:**
+### **Guidelines - Setup:**
 
 Make sure that `SASS` is configured properly. Standard configuration includes setting the output for `main.sass` to **/css/_site-styles.css_**. It is recommended that you rename the output CSS similar to the project name.
 
@@ -31,7 +31,7 @@ and, the following line under **PLUGINS JS** if you need to utilize on-scroll An
   </script>
 ```
 
-**Guidelines - Coding Standards:**
+### **Guidelines - Coding Standards:**
 
 Take advantage of `SASS` to keep everything modular and neat. It is important to understand the `SASS` folder structure included in this Starter Kit.
 
@@ -91,8 +91,8 @@ Animation is easily implemented thanks to **Animate.css** and **WOW.js**. Refer 
   @import "sidebar-left"
 ```
 
-**Compiling Everything**
+### **Compiling Everything**
 
 If done correctly, `main.sass` will compile everything to **css/_site-styles_.css**. Make sure to take advantage of the `@extend` feature of `SASS`. For more info, checkout [SASS' Documentation](http://sass-lang.com/guide)
 
-**IMPORTANT** Exclude the _`sass` files whenever a project will be uploaded onto a live server.
+**IMPORTANT** Exclude the '_sass` files whenever a project will be uploaded onto a live server.
