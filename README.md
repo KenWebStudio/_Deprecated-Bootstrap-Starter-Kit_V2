@@ -51,12 +51,12 @@ Make sure to utilize bourbon's preset `Mixins`. Refer to [Bourbon's Documentatio
 
 Animation is easily implemented thanks to **Animate.css** and **WOW.js**. Refer to [Animate.css' Documentation](https://github.com/daneden/animate.css#usage) & [WOW.js' Documentation](http://mynameismatthieu.com/WOW/docs.html).
 
-To use Flickity, refer to [Flickity's Website](http://flickity.metafizzy.co/).
+To use **Flickity**, refer to [Flickity's Website](http://flickity.metafizzy.co/).
 
 **Libraries**
 
 - _0-libraries/bourbon/_ : this is where bourbon is usually installed.
-- _0-libraries/_mixins.sass_ : If you need to add `Mixins`, put it here. There is a predefined `breakpoint mixin` should you need to utilize _Media Query.
+- _0-libraries/_mixins.sass_ : for `Mixins`, add it here. There is a predefined `breakpoint mixin`.
 - _0-libraries/_vars.sass_ : To avoid inconsistencies with colors, fonts, etc., declare **sitewide** specs here.
 
 ```sass
@@ -85,7 +85,7 @@ To use Flickity, refer to [Flickity's Website](http://flickity.metafizzy.co/).
 
 **Template Styling**
 
-- _2-templates/_ : The importance why the `SASS` folder is structured this way is to keep everything modular. If you have a specific template for certain pages, add a `SASS` folder with a filename matching the template, example:
+- _2-templates/_ : The importance why the `SASS` folder is structured this way is to keep everything modular. To utilize templates, add a `SASS` file with a filename matching the template, example:
 
 ```
   index.sass -- styles for the homepage
@@ -95,7 +95,7 @@ To use Flickity, refer to [Flickity's Website](http://flickity.metafizzy.co/).
   sidebar-left.sass - template styling with left sidebar
 ```
 
-- _2-templates/_templates-index.sass_ : If you did not declare any template styling, leave this blank. Otherwise, import the `sass` files here.
+- _2-templates/_templates-index.sass_ : If there are no templates used, leave this blank. Otherwise, import the `sass` files here.
 
 ```sass
   @import "index"
@@ -107,6 +107,6 @@ To use Flickity, refer to [Flickity's Website](http://flickity.metafizzy.co/).
 
 ### **Compiling Everything**
 
-If done correctly, `main.sass` will compile everything to **css/_site-styles_.css**. Make sure to take advantage of the `@extend` feature of `SASS`. For more info, checkout [SASS' Documentation](http://sass-lang.com/guide)
+If done correctly, `main.sass` will compile everything to **css/_site-styles_.css**. Make sure to take advantage of the `@extend` feature of `SASS`. For more info, checkout [SASS' Documentation](http://sass-lang.com/guide).
 
-**IMPORTANT** Exclude the `_sass` folder whenever the project is uploaded onto a live server.
+**IMPORTANT!** Exclude the `_sass` folder whenever the project is uploaded onto a live server.
