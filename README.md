@@ -7,6 +7,7 @@
 3. [FontAwesome](https://fortawesome.github.io/Font-Awesome/icons/) **v4.6.3**
 4. [Animate.css](https://github.com/daneden/animate.css/blob/master/animate.min.css) **v3.5.1**
 5. [WOW.js](https://github.com/matthieua/WOW/blob/master/dist/wow.min.js) **v1.1.3**
+6. Flickity [CSS](https://github.com/metafizzy/flickity/blob/master/dist/flickity.min.css) and [JS](https://github.com/metafizzy/flickity/blob/master/dist/flickity.pkgd.min.js) **v1.2.1**
 
 ### **Guidelines - Setup:**
 
@@ -21,7 +22,7 @@ For Animations, add the following line under **PLUGINS CSS**:
   <link rel="stylesheet" href="/plugins/animate.min.css">
 ```
 
-and, the following line under **PLUGINS JS** if you need to utilize on-scroll Animations:
+and the following line under **PLUGINS JS** if you need to utilize on-scroll Animations:
 
 ```html
   <!-- PLUGIN JS -->
@@ -31,6 +32,17 @@ and, the following line under **PLUGINS JS** if you need to utilize on-scroll An
   </script>
 ```
 
+For touch, responsive flickable galleries, add the following lines under **PLUGINS CSS** and **PLUGINS JS**:
+
+```html
+  <!-- PLUGIN CSS -->
+  <link rel="stylesheet" href="/plugins/flickity/flickity.min.css">
+```
+
+```html
+  <script type="text/javascript" src="/plugins/flickity/flickity.min.js"></script>
+```
+
 ### **Guidelines - Coding Standards:**
 
 Take advantage of `SASS` to keep everything modular and neat. It is important to understand the `SASS` folder structure included in this Starter Kit.
@@ -38,6 +50,8 @@ Take advantage of `SASS` to keep everything modular and neat. It is important to
 Make sure to utilize bourbon's preset `Mixins`. Refer to [Bourbon's Documentation](http://bourbon.io/docs/).
 
 Animation is easily implemented thanks to **Animate.css** and **WOW.js**. Refer to [Animate.css' Documentation](https://github.com/daneden/animate.css#usage) & [WOW.js' Documentation](http://mynameismatthieu.com/WOW/docs.html).
+
+To use Flickity, refer to [Flickity's Website](http://flickity.metafizzy.co/).
 
 **Libraries**
 
