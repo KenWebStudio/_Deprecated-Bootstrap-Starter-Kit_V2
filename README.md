@@ -32,7 +32,7 @@ and the following line under **PLUGINS JS** if you need to utilize on-scroll Ani
   </script>
 ```
 
-For touch, responsive flickable galleries, add the following lines under **PLUGINS CSS** and **PLUGINS JS**:
+For touch, responsive Flickable Carousels, add the following lines under **PLUGINS CSS** and **PLUGINS JS**:
 
 ```html
   <!-- PLUGIN CSS -->
@@ -40,6 +40,7 @@ For touch, responsive flickable galleries, add the following lines under **PLUGI
 ```
 
 ```html
+  <!-- PLUGIN JS -->
   <script type="text/javascript" src="/plugins/flickity/flickity.min.js"></script>
 ```
 
@@ -47,7 +48,7 @@ For touch, responsive flickable galleries, add the following lines under **PLUGI
 
 Take advantage of `SASS` to keep everything modular and neat. It is important to understand the `SASS` folder structure included in this Starter Kit.
 
-Make sure to utilize bourbon's preset `Mixins`. Refer to [Bourbon's Documentation](http://bourbon.io/docs/).
+Make sure to utilize Bourbon's preset `Mixins`. Refer to [Bourbon's Documentation](http://bourbon.io/docs/).
 
 Animation is easily implemented thanks to **Animate.css** and **WOW.js**. Refer to [Animate.css' Documentation](https://github.com/daneden/animate.css#usage) & [WOW.js' Documentation](http://mynameismatthieu.com/WOW/docs.html).
 
@@ -56,8 +57,8 @@ To use **Flickity**, refer to [Flickity's Website](http://flickity.metafizzy.co/
 **Libraries**
 
 - _0-libraries/bourbon/_ : this is where bourbon is usually installed.
-- _0-libraries/_mixins.sass_ : for `Mixins`, add it here. There is a predefined `breakpoint mixin`.
-- _0-libraries/_vars.sass_ : To avoid inconsistencies with colors, fonts, etc., declare **sitewide** specs here.
+- _0-libraries/_mixins.sass_ : for `Mixins`, add it here. There is a predefined `Breakpoint Mixin`.
+- _0-libraries/_vars.sass_ : to avoid inconsistencies with colors, fonts, etc., declare **Sitewide** specs here.
 
 ```sass
   $white: rgb(255,255,255)
@@ -76,7 +77,7 @@ To use **Flickity**, refer to [Flickity's Website](http://flickity.metafizzy.co/
 
 **Base**
 
-- _1-base/base.sass_ : Add **sitewide** styling here.
+- _1-base/base.sass_ : add **Sitewide** styling here.
 
 ```sass
   base
@@ -85,7 +86,7 @@ To use **Flickity**, refer to [Flickity's Website](http://flickity.metafizzy.co/
 
 **Template Styling**
 
-- _2-templates/_ : The importance why the `SASS` folder is structured this way is to keep everything modular. To utilize templates, add a `SASS` file with a filename matching the template, example:
+- _2-templates/_ : the importance why the `SASS` folder is structured this way is to keep everything modular. To utilize templates, add a `SASS` file with a filename matching the template, example:
 
 ```
   index.sass -- styles for the homepage
@@ -95,7 +96,7 @@ To use **Flickity**, refer to [Flickity's Website](http://flickity.metafizzy.co/
   sidebar-left.sass - template styling with left sidebar
 ```
 
-- _2-templates/_templates-index.sass_ : If there are no templates used, leave this blank. Otherwise, import the `sass` files here.
+- _2-templates/_templates-index.sass_ : if there are no templates used, leave this blank. Otherwise, import the `SASS` files here.
 
 ```sass
   @import "index"
