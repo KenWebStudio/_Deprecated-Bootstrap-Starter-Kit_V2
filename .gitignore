@@ -55,5 +55,6 @@ $RECYCLE.BIN/
 # =========================
 # FILES and FOLDERS
 # =========================
-
+*pdf
+*psd
 _psd/
