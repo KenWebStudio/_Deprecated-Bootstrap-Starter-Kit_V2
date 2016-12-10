@@ -2,12 +2,12 @@
 
 **What's included:**
 
-1. [Bootstrap](http://getbootstrap.com/) **v3.3.6**
-2. [jQuery](https://jquery.com/download/) **v1.11.3**
-3. [FontAwesome](https://fortawesome.github.io/Font-Awesome/icons/) **v4.6.3**
+1. [Bootstrap](http://getbootstrap.com/) **v3.3.7**
+2. [jQuery](https://jquery.com/download/) **v1.12.4**
+3. [FontAwesome](https://fortawesome.github.io/Font-Awesome/icons/) **v4.7.0**
 4. [Animate.css](https://github.com/daneden/animate.css/blob/master/animate.min.css) **v3.5.1**
 5. [WOW.js](https://github.com/matthieua/WOW/blob/master/dist/wow.min.js) **v1.1.3**
-6. Flickity [CSS](https://github.com/metafizzy/flickity/blob/master/dist/flickity.min.css) and [JS](https://github.com/metafizzy/flickity/blob/master/dist/flickity.pkgd.min.js) **v1.2.1**
+6. Flickity [CSS](https://github.com/metafizzy/flickity/blob/master/dist/flickity.min.css) and [JS](https://github.com/metafizzy/flickity/blob/master/dist/flickity.pkgd.min.js) **v2.0.5**
 
 ### **Guidelines - Setup:**
 
