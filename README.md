@@ -1,5 +1,4 @@
-# DEPRECATED AS OF 02/27/2018
-# Starter-Kit
+# Starter-Kit (DEPRECATED AS OF 02/27/2018)
 
 **What's included:**
 
